@@ -1,9 +1,11 @@
 <div align="center">
 <img width="200px"  src="https://i.postimg.cc/q7tdKyv2/PLAYGROUND-LAB-logo-amarillo.png" />
 </div>
-<hr>
+
+# PlaygroundLab
 
 [Playground lab](https://www.youtube.com/channel/UCJHGgOUNJ3ICSNclSYWtqDg)
+
 
 ## Comienza en el increíble mundo de la tecnología y sé parte del futuro.
 
