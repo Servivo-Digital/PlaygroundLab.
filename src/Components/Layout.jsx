@@ -15,6 +15,7 @@ export default function Layout(props) {
         <Nav></Nav>
          <main >
              <Hero/>
+            <div className="content wrapper">    
              <About/>
              <Learn/>
              <Testimony/>
@@ -22,6 +23,7 @@ export default function Layout(props) {
              <Because/>
              <Pricing/>
              <Footer/>
+            </div>
          </main>
     </> 
     )

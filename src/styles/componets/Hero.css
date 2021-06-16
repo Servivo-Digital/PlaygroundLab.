@@ -1,0 +1,71 @@
+.hero{
+    padding-block-start: 16px;
+    background: var(--gradient);
+}
+.hero-container{
+   
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.hero-content .hero-img{
+
+}
+.hero-content .hero-img img {
+    padding-inline-start: 0;
+    padding-inline-end:0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    max-inline-size: 100%;
+}
+.hero-content .hero-text {
+    
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+}
+.hero-content .hero-text .hero-title{
+
+    font: var(--headLine5);
+  
+}
+
+.hero-content .hero-text .hero-card{
+   
+}
+
+.hero-content .hero-text .hero-card .hero-card-container{
+    background: var(--shadow-principal);
+    color: var(--complementario1);
+    border-radius: 18px;
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content{
+    margin-block-start: 20px;
+    margin-block-end: 60px;
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5px ;
+    align-items: center;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 20px;
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-img img{
+    
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text{
+    font: var(--label)
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text .hero-card-herader-title{
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text .hero-card-header-description {
+   margin-block-start: 0;
+   margin-block-end: 0;
+   font: var(--caption);
+}

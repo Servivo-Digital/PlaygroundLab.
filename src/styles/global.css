@@ -1,7 +1,9 @@
-@import "./componets/Nav.css";
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Oxygen:wght@300;400;700&display=swap');
+
+@import "./componets/Nav.css";
+@import "./componets/Hero.css";
+
 
 :root {
     /*font size variable*/
@@ -11,7 +13,7 @@
     --headLine2: bold 48px/64px var(--fontBase);
     --headLine3: bold 40px/54px var(--fontBase);
     --headLine4: bold 28px/40px var(--fontBase);
-    --headLine5: bold 24px/32px var(--fontBase);
+    --headLine5: bold 24px/34px var(--fontBase);
     --body1: 16px/25px var(--fontBase);
     --body2: 14px/22px var(--fontBase);
     --buttom: bold 14px/23px var(--fontBase);
@@ -20,11 +22,14 @@
     --mencion2: 34px/55px var(--fontAlternative);
     --mencion3:bold 34px/55px var(--fontAlternative);
     --testimony : bold 16px/26px var(--fontAlternative);
+    --label:bold 18px/28px var(--fontBase);
     /*bg color variable*/
     --gradient:linear-gradient(90deg, #FF8008 0%, #FFC837 100%);transform: matrix(-1, 0, 0, 1, 0, 0),linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
     --cardbg:rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(39.7657px);
       /*color variable*/
+    --shadow-principal: #DD9E00;
+    --complementario1: #3E13B0;
     --purple: #310a90;
     --green: #42e2bb;
     --white: white;
@@ -39,3 +44,10 @@
     color: var(--black);
     margin: 0;
   }
+  
+  .wrapper{
+    max-inline-size: 1158px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}
