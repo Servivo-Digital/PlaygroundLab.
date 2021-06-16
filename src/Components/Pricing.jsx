@@ -7,24 +7,26 @@ export default function Pricing() {
         {
             title:'Introducción a la programación: ',
             descripcion:'inica en el mundo de la programacion y crea bases solidas para construir el futuro',
-            temary: [{name:'fundamentos',type:'basic'},{name:'secuencias',type:'basic'}, {name:'estructuras de datos',type:'basic'}, {name:'código en bloques',type:'basic'}, {name:'bucles' ,type:'basic'},{name:'Plan de estudio detallado',type:'basic'}],
+            temary: [{name:'fundamentos'},{name:'secuencias'}, {name:'estructuras de datos'}, {name:'código en bloques'}, {name:'bucles'},{name:'Plan de estudio detallado'}],
             month:'1 mes',
             classes: '8 clases',
             price: '3,497',
             currency: 'MXN',
             UndividualPrice:'437',
-            project:'Desarrolla un videojuego en el navegador'
+            project:'Desarrolla un videojuego en el navegador',
+            urlFile: 'www.google.com'
         },
         {
             title:'Robot / Web Developer',
             descripcion:'Es momento de explotar al maximo tus conocimientos',
-            temary: [{name:'Eventos en el navegador',type:'WEB'}, {name:'UI',type:'WEB'},{name: 'desarrollo en equipo',type:'WEB'},{name: 'desarrollo de una App real.',type:'WEB'},{name:'Plan de estudio detallado',type:'WEB'}],
+            temary: [{name:'Eventos en el navegador'}, {name:'UI'},{name: 'desarrollo en equipo'},{name: 'desarrollo de una App real.'},{name:'Plan de estudio detallado'}],
             month:'6 mes ',
             classes: '48 clases',
             price: '3,399',
             currency: 'MXN',
             UndividualPrice:'437',
-            project:'Construye un robot real y controlalo desde el navegador.'
+            project:'Construye un robot real y controlalo desde el navegador.',
+            urlFile: 'www.google.com'
         },
     ]
 
@@ -45,6 +47,7 @@ export default function Pricing() {
                                     currency={item.currency}
                                     UndividualPrice={item.UndividualPrice}
                                     project={item.project}
+                                    urlFile={item.urlFile}
                                 ></PricingItems>
                             </div>
                         ))

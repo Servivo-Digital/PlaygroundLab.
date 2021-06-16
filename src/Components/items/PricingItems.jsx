@@ -10,7 +10,8 @@ export default function PricingItems(props) {
         currency,
         UndividualPrice,
         project,
-        classes
+        classes,
+        urlFile
     } = props
 
 
@@ -35,7 +36,9 @@ export default function PricingItems(props) {
                         <ul className="PricingItems-card-body-temary">
                             {
                                 temary.map((item) => (
-                                    <li className="PricingItems-card-body-temary-list" type="square" key={item.name}>{item.name}</li>
+                                    item.name ==='Plan de estudio detallado' 
+                                        ? <a  target="_blank" rel="noopener" href={urlFile} key={item.name}>{item.name}</a> 
+                                        : <li className="PricingItems-card-body-temary-list" type="square" key={item.name}>{item.name}</li>
                                 ))
                             }
                         </ul>
