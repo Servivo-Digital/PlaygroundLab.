@@ -26,7 +26,7 @@ export default function Pricing() {
             currency: 'MXN',
             UndividualPrice:'437',
             project:'Construye un robot real y controlalo desde el navegador.',
-            urlFile: 'www.google.com'
+            urlFile: 'https://www.google.com'
         },
     ]
 
