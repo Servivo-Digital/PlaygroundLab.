@@ -8,9 +8,12 @@ export default function ValuesItems({title,imgUrl,description}) {
                     <h3 className="ValuesItems-title">{title}</h3>
                     <p className="ValuesItems-description">{description}</p>
                 </div>
-                <div className="ValuesItems-img">
-                   {imgUrl === '' ?' ':<img src={imgUrl} alt="" />}
-                </div>
+                {
+                imgUrl === '' ?' ':
+                    <div className="ValuesItems-img">
+                        <img src={imgUrl} alt="" />
+                    </div>
+                }
             </div>
         </div>
     )
