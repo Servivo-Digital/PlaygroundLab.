@@ -1,6 +1,26 @@
 import React from 'react'
+import SkillsItem from './items/SkillsItem'
 
 export default function Learn() {
+
+    const Skills = [
+        {
+            name: 'Logica',
+            url: 'https://i.postimg.cc/6p2LWkSB/Group-22.png'
+        },
+        {
+            name: 'Pensamiento creativo',
+            url: 'https://i.postimg.cc/W40GrMTK/Group-23.png'
+        },
+        {
+            name: 'Estructura',
+            url: 'https://i.postimg.cc/gj28fQ8F/Group-24.png'
+        },
+        {
+            name: 'Pensamiento algoritmico',
+            url: 'https://i.postimg.cc/ryfSSy28/Group-25.png'
+        }
+    ]
     return (
         <section className="Learn">
             <div className="Learn-container">
@@ -13,7 +33,13 @@ export default function Learn() {
                     </div>
                     <div className="Learn-content-body">
                         <div className="Learn-content-body-img">
-                            <img src="https://i.postimg.cc/GhX4y8FQ/Frame-1.png" alt="frame" />
+                            {
+                                Skills.map((item) => (
+                                    <div key={"skills-" + item.name}>
+                                        <SkillsItem name={item.name} url={item.url}/>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                     <div className="Learn-content-footer">
