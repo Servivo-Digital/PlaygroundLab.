@@ -22,9 +22,9 @@ export default function Nav() {
         }
       ]
     return (
-        <header >
-      <nav >
-          <img src="https://i.postimg.cc/B6kYhnfP/logo.png" alt="logo" />
+        <header className="Header">
+      <nav className="Header-nav">
+          <img className="Header-nav-logo" src="https://i.postimg.cc/B6kYhnfP/logo.png" alt="logo" />
         <ul >
           {
             navItems.map((item, index) => (

@@ -1,0 +1,30 @@
+.Header{
+
+}
+
+.Header-nav{
+    border: 2px solid red;
+    text-align: center;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+
+}
+.Header-nav .Header-nav-logo{
+    border: 2px solid yellow;
+    
+}
+.Header-nav ul{
+    border: 2px solid green;
+       display: flex;
+       list-style: none;
+       gap: 40px;
+       display: none;
+}
+/*
+.Header-nav ul a{
+    text-decoration: none;
+    
+    font: var(--button);
+    text-transform: uppercase;
+}
+*/
