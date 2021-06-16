@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TestimonyCard({name,type,message,urlmg}) {
+export default function TestimonyCard({name,type,message,urlImg}) {
     return (
         <div className="Testimony-card-container">
             <div className="Testimony-card-content">
@@ -11,7 +11,7 @@ export default function TestimonyCard({name,type,message,urlmg}) {
                 </div>
                 <div className="Testimony-card-footer">
                     <div className="Testimony-card-footer-avatar">
-                            <img src="  {urlImg}"  alt="avatar" />
+                            <img src={urlImg}  alt="avatar" />
                     </div>
                     <div className="Testimony-card-footer-avatar-name">
                             {name}
