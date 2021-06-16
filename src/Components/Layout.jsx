@@ -4,6 +4,7 @@ import Hero from './Hero'
 import About from './About'
 import Learn from './Learn'
 import Testimony from './Testimony'
+import Duck from './Duck'
 
 export default function Layout(props) {
     return (
@@ -14,6 +15,7 @@ export default function Layout(props) {
              <About/>
              <Learn/>
              <Testimony/>
+             <Duck/>
          </main>
     </> 
     )
