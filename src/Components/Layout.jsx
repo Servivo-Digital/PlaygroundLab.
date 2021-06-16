@@ -7,6 +7,7 @@ import Testimony from './Testimony'
 import Duck from './Duck'
 import Because from './Because'
 import Pricing from './Pricing'
+import Footer from './Footer'
 
 export default function Layout(props) {
     return (
@@ -20,6 +21,7 @@ export default function Layout(props) {
              <Duck/>
              <Because/>
              <Pricing/>
+             <Footer/>
          </main>
     </> 
     )

@@ -27,7 +27,7 @@ export default function Values() {
 
 
     return (
-        <section className="Values">
+        <section className="Values" id="porque">
             <div className="Values-conteiner">
                 <div className="Values-content">
                     {
