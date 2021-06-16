@@ -28,6 +28,7 @@
     --cardbg:rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(39.7657px);
       /*color variable*/
+    --principal :#FFC837;
     --shadow-principal: #DD9E00;
     --complementario1: #3E13B0;
     --purple: #310a90;

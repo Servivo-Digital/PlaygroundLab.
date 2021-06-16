@@ -32,9 +32,9 @@ export default function Hero() {
                                         <div className="hero-card-body">
                                             <div className="hero-card-body-container">
                                                 <div className="hero-card-body-content">
-                                                    <button>
+                                                    <a className="hero-card-body-buttom">
                                                         Ver Ahora
-                                                    </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
