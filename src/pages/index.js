@@ -5,7 +5,7 @@ export default function Home() {
   return (
   <Layout>
     <h1>
-       v
+       
     </h1>
   </Layout>)
 }
