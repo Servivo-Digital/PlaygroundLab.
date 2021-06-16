@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import About from './About'
 import Learn from './Learn'
+import Testimony from './Testimony'
 
 export default function Layout(props) {
     return (
@@ -12,6 +13,7 @@ export default function Layout(props) {
              <Hero/>
              <About/>
              <Learn/>
+             <Testimony/>
          </main>
     </> 
     )
