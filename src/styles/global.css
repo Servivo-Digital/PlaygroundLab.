@@ -1,1 +1,41 @@
 @import "./componets/Nav.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    /*font size variable*/
+    --fontBase: "Inter", sans-serif;
+    --fontAlternative:'Oxygen', sans-serif;
+    --headLine1: bold 72px/98px var(--fontBase);
+    --headLine2: bold 48px/64px var(--fontBase);
+    --headLine3: bold 40px/54px var(--fontBase);
+    --headLine4: bold 28px/40px var(--fontBase);
+    --headLine5: bold 24px/32px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --buttom: bold 14px/23px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
+    --mencion : lighter 24px/39px var(--fontAlternative);
+    --mencion2: 34px/55px var(--fontAlternative);
+    --mencion3:bold 34px/55px var(--fontAlternative);
+    --testimony : bold 16px/26px var(--fontAlternative);
+    /*bg color variable*/
+    --gradient:linear-gradient(90deg, #FF8008 0%, #FFC837 100%);transform: matrix(-1, 0, 0, 1, 0, 0),linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+    --cardbg:rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(39.7657px);
+      /*color variable*/
+    --purple: #310a90;
+    --green: #42e2bb;
+    --white: white;
+    --gray: #eeeeee;
+    --black: #000;
+  }
+  
+  body {
+    background: var(--gray);
+    min-block-size: 360px;
+    font: var(--buttom);
+    color: var(--black);
+    margin: 0;
+  }
