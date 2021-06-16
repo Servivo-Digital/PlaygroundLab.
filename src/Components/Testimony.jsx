@@ -28,14 +28,14 @@ export default function Testimony() {
                 <div className="Testimony-content">
                     {
                         TestimonyItems.map((item, index) => (
-                            <li key={index}>
+                            <div key={index}>
                                 <TestimonyCard
                                     name={item.name}
                                     type={item.type}
                                     urlImg={item.urlImg}
                                     message={item.message}
                                 ></TestimonyCard>
-                            </li>
+                            </div>
                         ))
                     }
                 </div>
