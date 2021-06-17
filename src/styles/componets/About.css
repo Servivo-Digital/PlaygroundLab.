@@ -1,0 +1,21 @@
+.About-content-text-title{
+    color: var(--principal);
+    font: var(--headLine2);
+    text-align: center;
+    margin-block-end: 60px;
+}
+.About-content-text-description{
+    font:var(--body2)
+}
+
+.About-content-img{
+    padding-inline-start: 0;
+    padding-inline-end:0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    max-inline-size: 100vw;
+    margin-block-end: 60px;
+}
+.About-content-img img{
+    max-inline-size: 100%;
+}

@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 0px;
 }
+
 .hero-content .hero-img{
 
 }
@@ -20,6 +21,8 @@
     padding-block-end: 0;
     max-inline-size: 100%;
 }
+
+
 .hero-content .hero-text {
     
     padding-inline-end: 10px;
@@ -30,65 +33,7 @@
     font: var(--headLine5);
   
 }
-
 .hero-content .hero-text .hero-card{
    
 }
 
-.hero-content .hero-text .hero-card .hero-card-container{
-    background: var(--shadow-principal);
-    color: var(--complementario1);
-    border-radius: 18px;
-    
-}
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content{
-    margin-block-start: 20px;
-    margin-block-end: 60px;
-}
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header{
-    
-    display: flex;
-    flex-direction: row;
-    gap: 5px ;
-    align-items: center;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
-    padding-block-start: 20px;
-}
-
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text{
-    font: var(--label)
-}
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text .hero-card-herader-title{
-    margin-block-start: 0;
-    margin-block-end: 0; 
-}
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content .hero-card-header .hero-card-header-text .hero-card-header-description {
-   margin-block-start: 0;
-   margin-block-end: 0;
-   font: var(--caption);
-}
-
-
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content  .hero-card-body-content {
-    background: var(--principal);
-    border-radius: 60px;
-    width: 281.89px;
-    height: 42px;  
-    display: flex;
-    align-items: center;
-    padding: 1px;
-    margin-block-start: 10px;
-    margin-block-end: 10px ;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-}
-
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content  .hero-card-body-content .hero-card-body-buttom{
-    color: var(--white);
-    font: var(--label); 
-    margin: 30px auto;
-}
-.hero-content .hero-text .hero-card .hero-card-container .hero-card-content  .hero-card-body-content .hero-card-body-buttom:hover{
-    color: var(--white);   
-}

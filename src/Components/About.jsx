@@ -9,6 +9,9 @@ export default function About() {
                         <h2 className="About-content-text-title">
                             ¿Quiénes somos?
                         </h2>
+                        <div className="About-content-img">
+                            <img src="https://i.postimg.cc/MGRNhBtb/imng-1.png" alt="imagen" />
+                        </div>
                         <div className="About-content-text-description">
                             <p className="About-content-text p1">
                                 Somos un grupo de amantes, creyentes y apacionados de la tecnología, la percivimos como la herramienta educativa con la cacidad de no solo crear oportunidades si no de cambiar el mundo, dando soluciones digitales a problemas reales.
@@ -21,9 +24,7 @@ export default function About() {
                             </p>
                         </div>
                     </div>
-                    <div className="About-content-img">
-                        <img src="https://i.postimg.cc/MGRNhBtb/imng-1.png" alt="imagen" />
-                    </div>
+
                 </div>
             </div>
         </section>
