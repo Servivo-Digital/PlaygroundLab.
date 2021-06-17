@@ -43,7 +43,9 @@ export default function Learn() {
                         </div>
                     </div>
                     <div className="Learn-content-footer">
-                        <button>Agenda una clase </button>
+                        <div className="Learn-content-footer-button">
+                            <a>Agenda una clase </a>
+                        </div>
                     </div>
                 </div>
             </div>
