@@ -1,0 +1,25 @@
+.Duck{
+    margin-block-start: 118px;
+}
+
+.Duck-content-img {
+    margin-inline-end: 20px;
+    text-align: center;
+}
+
+.Duck-content-img img{
+    width: 100%;
+} 
+ 
+ 
+ .Duck-content-text-title{
+    color: var(--principal);
+    font: var(--headLine3);
+    text-align: center; 
+    margin-block-end: 75px;
+    margin-block-start: 75px;
+ }
+
+ .Duck-content-text-body{
+     font: var(--body2);
+ }
