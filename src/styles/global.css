@@ -7,6 +7,7 @@
 @import "./componets/Learn.css";
 @import "./componets/Testimony.css";
 @import "./componets/Duck.css";
+@import "./componets/Because.css";
 
 
 
@@ -43,6 +44,7 @@
     --white: white;
     --gray: #eeeeee;
     --black: #000;
+    --blue1: #0FCBFC;
   }
   
   body {
