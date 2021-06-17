@@ -1,11 +1,16 @@
+.About-container{
+    margin-block-end: 40px ;
+}
+
+
 .About-content-text-title{
     color: var(--principal);
     font: var(--headLine2);
-    text-align: center;
+    text-align: center; 
     margin-block-end: 60px;
 }
 .About-content-text-description{
-    font:var(--body2)
+    font:var(--body2);
 }
 
 .About-content-img{
