@@ -4,7 +4,7 @@ export default function TestimonyCard({name,type,message,urlImg}) {
     return (
         <div className="Testimony-card-container">
             <div className="Testimony-card-content">
-                <div className="Testimony-card-text">
+                <div  className=  {type ==='primary'? "Testimony-card-text primary":"Testimony-card-text" }>
                     <p>
                         {message}
                     </p>
@@ -14,7 +14,7 @@ export default function TestimonyCard({name,type,message,urlImg}) {
                             <img src={urlImg}  alt="avatar" />
                     </div>
                     <div className="Testimony-card-footer-avatar-name">
-                            {name}
+                           <p> {name}</p>
                     </div>
                 </div>
             </div>

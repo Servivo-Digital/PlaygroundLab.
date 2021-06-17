@@ -26,6 +26,7 @@ export default function Testimony() {
         <section className="Testimony">
             <div className="Testimony-container">
                 <div className="Testimony-content">
+                    <h2 className="Testimony-content-title">Testimonios</h2>
                     {
                         TestimonyItems.map((item, index) => (
                             <div key={index}>
@@ -34,6 +35,7 @@ export default function Testimony() {
                                     type={item.type}
                                     urlImg={item.urlImg}
                                     message={item.message}
+                                    type={item.type}
                                 ></TestimonyCard>
                             </div>
                         ))

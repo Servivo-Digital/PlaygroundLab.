@@ -5,6 +5,7 @@
 @import "./componets/Hero.css";
 @import "./componets/About.css";
 @import "./componets/Learn.css";
+@import "./componets/Testimony.css";
 
 
 
@@ -29,6 +30,7 @@
     /*bg color variable*/
     --gradient:linear-gradient(90deg, #FF8008 0%, #FFC837 100%);transform: matrix(-1, 0, 0, 1, 0, 0),linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
     --cardbg:rgba(255, 255, 255, 0.2);
+    --cardbg2:#E0E4EB;
     backdrop-filter: blur(39.7657px);
       /*color variable*/
     --principal :#FFC837;
