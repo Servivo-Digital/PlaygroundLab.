@@ -75,7 +75,7 @@
 
     margin-inline-start: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     font: var(--headLine5);
 }
 
@@ -115,23 +115,22 @@
     padding-inline-start: 15px;
 }
 
-.buttom-buy{
-    background: var(--bgBtn);
-    padding-block-end: 30px;
-    margin-block-end: 10px;  
+.pricing-buttom{
     margin-inline-start: 10px;
     margin-inline-end: 10px;
-    border-radius: 60px;
+}
+
+.pricing-buttom .content-footer-button{
+    height: 42px;  
     
 }
 
-.buttom-buy a{
-    color: var(--white);
-    font: var(--label); 
-    text-decoration: none;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+.pricing-buttom .content-footer-button a {
+   font: var(--label); 
 }
+
+
+
 /*esto es una porqueria porque intento todo para separar el boton del bottom del contenedor y no queria :( */
 .hacer-refactory-de-esto{
     height: 5px;

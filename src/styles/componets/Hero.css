@@ -1,3 +1,6 @@
+@import "./items/CardHero.css";
+
+
 .hero{
     padding-block-start: 16px;
     background: var(--gradient);
@@ -24,16 +27,11 @@
 
 
 .hero-content .hero-text {
-    
-    padding-inline-end: 10px;
+    padding-inline-end: 10px; 
     padding-inline-start: 10px;
 }
 .hero-content .hero-text .hero-title{
-
     font: var(--headLine5);
-  
 }
-.hero-content .hero-text .hero-card{
-   
-}
+
 

@@ -71,13 +71,15 @@ export default function PricingItems(props) {
                                 <p className="footer-project-project">{project}</p>
                             </span>
                         </div>
-                        <div className="buttom-buy">
-                            <a href="">Adquiere Ahora</a>
+                        <div className="pricing-buttom">
+                            <div className="content-footer-button">
+                                <a href="">Adquiere Ahora</a>
+                            </div>
                         </div>
                         <div className="hacer-refactory-de-esto"></div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.content-footer-button{
+    width: 100%;
+    height: 75px;    
+    background: var(--principal);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-footer-button a{
+    font: var(--headLine4);
+    color: var(--white);
+    text-decoration: none;
+}

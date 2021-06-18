@@ -1,0 +1,53 @@
+@import "./button.css";
+
+.hero-card-container{
+    border: 2px solid transparent;
+    background: var(--shadow-principal);
+    color: var(--complementario1);
+    border-radius: 18px;
+    
+}
+.hero-card-content{
+    margin-block-end: 30px;
+}
+
+.hero-card-header{
+    display: flex;
+    flex-direction: row;
+    gap: 5px ;
+    align-items: center;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 20px;
+    
+}
+.hero-card-herader-title{
+    font: var(--label);
+}
+.hero-card-header-description{
+    font: var(--caption);
+}
+.hero-card-herader-title, .hero-card-header-description{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 10px;
+}
+
+.hero-card-body{
+    margin-block-start: 20px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+}
+
+.hero-card-body-container .content-footer-button{
+    height: 42px;  
+}
+
+.hero-card-body-container .content-footer-button a {
+   font: var(--label); 
+}
+
+/*otra vez este probkema*/
+.hacer-refactory-de-esto-2{
+    height: 60px;
+}

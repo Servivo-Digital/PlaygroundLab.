@@ -29,7 +29,7 @@
     --mencion2: 34px/55px var(--fontAlternative);
     --mencion3:bold 34px/55px var(--fontAlternative);
     --testimony : bold 16px/26px var(--fontAlternative);
-    --label:bold 18px/28px var(--fontBase);
+    --label: bold 18px/28px var(--fontBase);
     --lead: 18px/32px var(--fontBase);
     /*bg color variable*/
     --gradient:linear-gradient(90deg, #FF8008 0%, #FFC837 100%);transform: matrix(-1, 0, 0, 1, 0, 0),linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
