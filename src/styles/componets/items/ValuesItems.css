@@ -1,0 +1,39 @@
+.Values-conteiner{
+   
+}
+
+.ValuesItems-content{
+    margin-block-end: 50px;
+}
+.ValuesItems-img{
+    text-align: center;
+    margin-block-start: 40px;
+    
+}
+.ValuesItems-img img {
+    width: 25%;
+}
+.ValuesItems-title{
+    font: var(--headLine4);
+    margin-block-start: 40px ;
+    margin-block-end: 40px;
+    text-align: center;
+}
+
+.one{
+    color: var(--blue1);
+}
+.two{
+    color:var(--correcto);
+}
+.three{
+    color:var(--eror);
+}
+.four{
+    color:var(--shadowComplementario);
+}
+
+.ValuesItems-description{
+    
+    font: var(--body2);
+}

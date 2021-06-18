@@ -1,3 +1,7 @@
+@import "./items/QuoteCard.css";
+@import "./items/ValuesItems.css";
+
+
 .Because-title{
     color: var(--principal);
     font: var(--headLine3);
@@ -5,52 +9,4 @@
     margin-block-end: 75px;
     margin-block-start: 75px;
 }
-.Quote {
-    margin-block-end: 100px;
-}
 
-.QuoteCard-container{
-    margin-block-end: 40px;
-}
-.QuoteCard-content{
-    
-    display: flex;
-    flex-direction: column;
-}
-.QuoterCard-author-img{
-    width: 100%;
-}
-.QuoterCard-author-img img{
-    width: 30%;
-}
-.QuoteCard-Text{
-    
-    display: flex;
-    flex-direction: row;
-    gap: 20px ;
-    align-items: stretch;
-}
-
-.QuoteCard-Text::before {
-    content: url('https://i.postimg.cc/vmD3P61x/Rectangle-11.png');
-}
-.QuoteCard-Text p{
-    margin-inline-start: 20px;
-}
- .QuoteCard-Text p::before{
-    content: '"';
-    width: 32px;
-    height: 32px;
-    font: var(--headLine1);
-    display: inline-block;
-    color: var(--principal);
-}
-.QuoteCard-Text p::after{
-    content: '"';
-    width: 32px;
-    font: var(--headLine1);
-    height: 32px;
-    display: inline-block;
-    color: var(--principal);
-    position: absolute; 
-}

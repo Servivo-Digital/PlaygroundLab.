@@ -45,6 +45,9 @@
     --gray: #eeeeee;
     --black: #000;
     --blue1: #0FCBFC;
+    --correcto: #16C79A;
+    --eror:#F05454;
+    --shadowComplementario:#5015F0;
   }
   
   body {
