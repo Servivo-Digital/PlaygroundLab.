@@ -1,0 +1,138 @@
+.Pricing-title{
+    color: var(--principal);
+    font: var(--headLine3);
+    text-align: center;
+    margin-block-end: 75px;
+    margin-block-start: 75px;
+}
+
+
+.PricingItems-card{
+    background: #F0F0F0;
+    box-shadow: 1px 12px 5px 6px rgba(0, 0, 0, 0.25);
+    margin-block-start: 60px;
+    margin-block-end: 60px ;
+}
+
+.PricingItems-card-header{
+     
+    background-color: var(--cardbgHeader);
+}
+
+.PricingItems-card-header-title{
+    font: var(--headLine4);
+    margin-block-start: 11px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+}
+.PricingItems-card-header-description{
+    font: var(--lead);
+    margin-inline-start: 15px;
+    margin-block-start: 31px;
+    margin-inline-end: 10px;
+}
+
+.PricingItems-card-body-description{
+    margin-inline-start: 15px ;
+}
+.PricingItems-card-body-temary{
+    font: var(--body1);
+    line-height: 40px;
+}
+.PricingItems-card-body-temary a{
+    color: var(--principal);
+    font:var(--label);
+    line-height: 60px;
+    text-decoration: none;
+}
+.PricingItems-card-footer{
+    border-top: 2px solid rgba(220,220,220,0.5);
+}
+
+.card-footer-caption{
+    font: var(--body2);
+    font-weight: bold;
+    font-size: .875rem;
+    background-color: var(--blue1);
+    padding-inline-start: 8px;
+    padding-inline-end: 16px;
+    padding-block-start:0px ;
+    padding-block-end: 0px ;
+    margin-block-start: -30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 60%;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bestValue{
+    background-color: var(--principal);
+}
+
+
+.card-footer-section-price{
+
+    margin-inline-start: 10px;
+    display: flex;
+    flex-direction: row;
+    font: var(--headLine5);
+}
+
+.PricingItems-card-footer-price-prices span{
+    font: var(--label);
+}
+
+.PricingItems-card-footer-price-individual{
+    font: var(--caption);
+    color:var(--blue1);
+    margin-block-start: 0;
+    padding-block-start: 0;
+    padding-inline-start: 10px;
+}
+
+.PricingItems-card-footer-price-prices{
+    margin-inline-start: 10px;
+}
+
+.footer-project-title{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footer-project-title img {
+    width: 8%;
+    padding: 0;
+    margin-block-start: 14px;
+    margin-block-end: 14px;
+    padding-inline-start: 10px;
+    margin-inline-end: 5px;
+}
+.footer-project-project{
+    padding-inline-start: 15px;
+}
+
+.buttom-buy{
+    background: var(--bgBtn);
+    padding-block-end: 30px;
+    margin-block-end: 10px;  
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    border-radius: 60px;
+    
+}
+
+.buttom-buy a{
+    color: var(--white);
+    font: var(--label); 
+    text-decoration: none;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+/*esto es una porqueria porque intento todo para separar el boton del bottom del contenedor y no queria :( */
+.hacer-refactory-de-esto{
+    height: 5px;
+}

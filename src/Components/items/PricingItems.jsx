@@ -11,7 +11,8 @@ export default function PricingItems(props) {
         UndividualPrice,
         project,
         classes,
-        urlFile
+        urlFile,
+        caption
     } = props
 
 
@@ -26,9 +27,9 @@ export default function PricingItems(props) {
                             {title}
                         </h3>
                         <p className="PricingItems-card-header-description">
-                            <samp>
+                            <span>
                                 {month},{classes}
-                            </samp>
+                            </span>
                         </p>
                     </div>
                     <div className="PricingItems-card-body">
@@ -36,28 +37,44 @@ export default function PricingItems(props) {
                         <ul className="PricingItems-card-body-temary">
                             {
                                 temary.map((item) => (
-                                    item.name ==='Plan de estudio detallado' 
-                                        ? <a  target="_blank" rel="noopener" href={urlFile} key={item.name}>{item.name}</a> 
+                                    item.name === 'Plan de estudio detallado'
+                                        ? <a target="_blank" rel="noopener" href={urlFile} key={item.name}>{item.name}</a>
                                         : <li className="PricingItems-card-body-temary-list" type="square" key={item.name}>{item.name}</li>
                                 ))
                             }
                         </ul>
                     </div>
                     <div className="PricingItems-card-footer">
-                        <p className="PricingItems-card-footer-price">
-                            <span className="PricingItems-card-footer-price-currency" >
-                                {currency}
-                            </span>
-                            <span className="PricingItems-card-footer-price-prices">
-                                {price}
-                            </span>
-                            <span className="PricingItems-card-footer-price-individual" >
-                                {UndividualPrice}
-                            </span>
+                        <div className="PricingItems-card-footer-price">
+                            <div className={caption === 'Mejor Valor' ? "card-footer-caption bestValue" : "card-footer-caption"}>
+                                <p>
+                                    {caption}
+                                </p>
+                            </div>
+                            <div className="card-footer-section-price">
+                                <span className="PricingItems-card-footer-price-currency" >
+                                    {currency}
+                                </span>
+                                <span className="PricingItems-card-footer-price-prices">
+                                    ${price}.00 <span>/mes</span>
+                                </span>
+                            </div>
+
+                            <div className="PricingItems-card-footer-price-individual" >
+                                <p> Precio por clase ${UndividualPrice}.00 {currency} </p>
+                            </div>
                             <span className="PricingItems-card-footer-project">
-                                {project}
+                                <div className="footer-project-title">
+                                    <img src="https://i.postimg.cc/KzzNRYkF/lightbulb.png" alt="" />
+                                    <p>Projecto del curso:</p>
+                                </div>
+                                <p className="footer-project-project">{project}</p>
                             </span>
-                        </p>
+                        </div>
+                        <div className="buttom-buy">
+                            <a href="">Adquiere Ahora</a>
+                        </div>
+                        <div className="hacer-refactory-de-esto"></div>
                     </div>
                 </div>
             </div>

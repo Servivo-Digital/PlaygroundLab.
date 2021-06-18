@@ -14,7 +14,8 @@ export default function Pricing() {
             currency: 'MXN',
             UndividualPrice:'437',
             project:'Desarrolla un videojuego en el navegador',
-            urlFile: 'www.google.com'
+            urlFile: 'www.google.com',
+            caption:'Mas popular'
         },
         {
             title:'Robot / Web Developer',
@@ -26,7 +27,8 @@ export default function Pricing() {
             currency: 'MXN',
             UndividualPrice:'437',
             project:'Construye un robot real y controlalo desde el navegador.',
-            urlFile: 'https://www.google.com'
+            urlFile: 'https://www.google.com',
+            caption:'Mejor Valor'
         },
     ]
 
@@ -34,6 +36,7 @@ export default function Pricing() {
        <section className="Pricing">
            <div className="Pricing-contianer">
                <div className="Pricing-content">
+                   <h2 className="Pricing-title">Pricing</h2> 
                {
                         PricingItem.map((item, index) => (
                             <div key={index}>
@@ -48,6 +51,7 @@ export default function Pricing() {
                                     UndividualPrice={item.UndividualPrice}
                                     project={item.project}
                                     urlFile={item.urlFile}
+                                    caption={item.caption}
                                 ></PricingItems>
                             </div>
                         ))
