@@ -9,12 +9,7 @@
 
 ##### Primary
 
-
-
 ##### Neutral
-
-
-
 
 ##### Body Copy
 
