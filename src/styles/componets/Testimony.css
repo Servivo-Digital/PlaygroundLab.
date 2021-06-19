@@ -13,8 +13,6 @@
  }
 
 
-
-
 .Testimony-card-text{
     width: 100%;
     height: 368px;
@@ -51,6 +49,10 @@
     }
     .Testimony-card-content{
         font: var(--headLine6);
+    }
+    .Testimony-content-title{
+        margin-block-end: 100px;
+        margin-block-start: 100px;
     }
     .Testimony-card-text{
         border: 2px solid black;
