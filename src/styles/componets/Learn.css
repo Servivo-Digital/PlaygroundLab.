@@ -31,3 +31,15 @@
     
 }
 
+@media only screen and (min-width: 768px){
+    .Learn-content-body-img{
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+}
+

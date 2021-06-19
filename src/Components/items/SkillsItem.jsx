@@ -9,7 +9,7 @@ export default function SkillsItem({ name, url }) {
                 </div>
             </div>
             <div className="SkillsItem-text">
-                <h3>
+                <h3 className="Skills-name">
                     {name}
                 </h3>
             </div>
