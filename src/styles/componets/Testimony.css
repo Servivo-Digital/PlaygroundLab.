@@ -12,9 +12,7 @@
     margin-block-start: 75px;
  }
 
-.Testimony-card-content{
-    
-}
+
 
 
 .Testimony-card-text{
@@ -43,3 +41,23 @@
 .Testimony-card-footer-avatar-name{
     font: var(--label);
 }
+
+
+
+@media only screen and (min-width: 768px){
+    .Testimony-content{ 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Testimony-card-content{
+        font: var(--headLine6);
+    }
+    .Testimony-card-text{
+        border: 2px solid black;
+        width: 250px;
+        font: var(--label);
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+    
+} 

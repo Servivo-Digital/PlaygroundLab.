@@ -22,11 +22,11 @@ export default function Testimony() {
             message: '“Buen contenido se me pasó el tiempo volando” '
         },
     ]
-    return (
+    return ( 
         <section className="Testimony">
             <div className="Testimony-container">
+                <h2 className="Testimony-content-title">Testimonios</h2>
                 <div className="Testimony-content">
-                    <h2 className="Testimony-content-title">Testimonios</h2>
                     {
                         TestimonyItems.map((item, index) => (
                             <div key={index}>
@@ -35,6 +35,7 @@ export default function Testimony() {
                                     type={item.type}
                                     urlImg={item.urlImg}
                                     message={item.message}
+
                                 ></TestimonyCard>
                             </div>
                         ))

@@ -12,7 +12,7 @@ export default function TestimonyCard({name,type,message,urlImg}) {
                 <div className="Testimony-card-footer">
                     <div className="Testimony-card-footer-avatar">
                             <img src={urlImg}  alt="avatar" />
-                    </div>
+                    </div> 
                     <div className="Testimony-card-footer-avatar-name">
                            <p> {name}</p>
                     </div>
