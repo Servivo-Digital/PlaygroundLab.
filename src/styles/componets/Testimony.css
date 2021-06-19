@@ -55,11 +55,15 @@
         margin-block-start: 100px;
     }
     .Testimony-card-text{
-        border: 2px solid black;
         width: 250px;
         font: var(--label);
         margin-inline-start: 0;
         margin-inline-end: 0;
     }
+    .primary{
+        background-color: var(--principal);
+        box-shadow:  1px 4px 5px 2px rgba(0, 0, 0, 0.20);
+    }
+    
     
 } 
