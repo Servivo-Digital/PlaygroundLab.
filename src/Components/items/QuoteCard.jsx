@@ -3,7 +3,7 @@ import React from 'react'
 export default function QuoteCard({quote,imgUrl,author}) {
     return (
         <div className="QuoteCard-container">
-            <div className="QuoteCard-content">
+            <section className="QuoteCard-content">
                 <div className="QuoterCard-author-img">
                     <img src={imgUrl}  alt={author} />
                 </div>
@@ -12,7 +12,7 @@ export default function QuoteCard({quote,imgUrl,author}) {
                         {quote}
                     </p>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }
