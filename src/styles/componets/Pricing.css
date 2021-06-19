@@ -135,3 +135,16 @@
 .hacer-refactory-de-esto{
     height: 5px;
 }
+
+
+@media only screen and (min-width: 768px){
+    
+    .PricingItems-card{
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .card-footer-caption{
+        box-shadow: 1px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    }
+}
