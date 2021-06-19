@@ -60,3 +60,10 @@
     }
      
 }
+@media only screen and (min-width: 1366px){
+    .hero-content{
+        
+        padding-inline-start: 83px;
+        padding-inline-end: 83px;
+    }
+}
