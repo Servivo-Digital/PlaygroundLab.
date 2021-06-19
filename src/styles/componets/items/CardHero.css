@@ -51,3 +51,11 @@
 .hacer-refactory-de-esto-2{
     height: 60px;
 }
+
+
+@media only screen and (min-width: 768px){
+    .hero-card-container{
+        width: 405.75px;
+        height: 152px;
+    }
+}

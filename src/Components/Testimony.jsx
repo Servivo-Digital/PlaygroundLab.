@@ -35,7 +35,6 @@ export default function Testimony() {
                                     type={item.type}
                                     urlImg={item.urlImg}
                                     message={item.message}
-                                    type={item.type}
                                 ></TestimonyCard>
                             </div>
                         ))

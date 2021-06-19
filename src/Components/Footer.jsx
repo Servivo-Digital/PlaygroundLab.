@@ -50,7 +50,7 @@ export default function Footer() {
                         <div className="Footer-footer-social">
                             {
                                 socialItems.map((item, index) => (
-                                    item.url == '' ? '' :
+                                    item.url === '' ? '' :
                                         <div key={(index * 100 + "_") + item.name}>
                                             <div className="icon-img">
                                                 <a href={item.url}>
@@ -63,7 +63,7 @@ export default function Footer() {
                             }
                         </div>
                         <div className="Footer-footer-copy">
-                            <p>Diseñado con ♥️ en Playground lab</p>
+                            <p>Diseñado con <span role="img" aria-label="heart">❤️</span> en Playground lab</p>
                             <p className="dir">Perif. Sur 3720, Jardines del Pedregal, Álvaro Obregón, 01900 Ciudad de México, CDMX</p>
                         </div>
                     </div>

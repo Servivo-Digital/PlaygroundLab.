@@ -29,12 +29,12 @@ export default function Nav() {
           {
             navItems.map((item, index) => (
               <li key={index}>
-               {item.href==='/Agenda'? <button>{item.caption}</button>: <Link  to={item.href}>{item.caption}</Link>}  
+               {item.href==='/Agenda'? ' ' : <Link  to={item.href}>{item.caption}</Link>}  
               </li>
             ))
           }
         </ul>
-      </nav>
+      </nav> 
     </header>
     )
 }

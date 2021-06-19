@@ -23,7 +23,7 @@ export default function CardHerp() {
                     <div className="hero-card-body">
                         <div className="hero-card-body-container">
                             <div className="hero-card content-footer-button">
-                                <a >
+                                <a href="wwww.google.com" >
                                     Ver Ahora
                                 </a>
                             </div>

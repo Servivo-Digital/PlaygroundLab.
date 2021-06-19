@@ -6,24 +6,46 @@
     text-align: center;
     padding-block-start: 10px;
     padding-block-end: 10px;
-
-}
-.Header-nav .Header-nav-logo{
- 
+    
     
 }
+
 .Header-nav ul{
-    border: 2px solid green;
+    
        display: flex;
        list-style: none;
        gap: 40px;
        display: none;
 }
-/*
+
 .Header-nav ul a{
     text-decoration: none;
     
     font: var(--button);
     text-transform: uppercase;
 }
-*/
+
+
+@media only screen and (min-width: 768px){
+    .Header-nav{
+        display: flex;
+        justify-content: space-between;
+        position: -webkit-sticky;
+	    position: sticky;
+	    top: 0;
+    }
+    
+    .Header-nav ul{
+        margin-inline-end: 0;
+        display: block;
+        display: flex;
+        flex-direction: row; 
+        font: var(--body1);
+        gap:15px;
+    }
+
+    .nav .content-footer-button{
+        height: 20px;
+    }
+    
+}

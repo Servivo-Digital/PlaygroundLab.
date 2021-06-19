@@ -5,9 +5,6 @@
     padding-block-start: 16px;
     background: var(--gradient);
 }
-.hero-container{
-   
-}
 .hero-content{
     display: flex;
     flex-direction: column;
@@ -32,6 +29,34 @@
 }
 .hero-content .hero-text .hero-title{
     font: var(--headLine5);
+    color: var(--white);
 }
 
 
+@media only screen and (min-width: 500px){
+ 
+    .hero-content .hero-img{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    
+    }
+     
+}
+
+
+@media only screen and (min-width: 768px){
+ 
+    .hero-content{
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero-content .hero-text {
+        order: -1;
+    }
+    .hero-content .hero-text .hero-title{
+        font: var(--headLine4);
+    }
+     
+}

@@ -44,7 +44,7 @@ export default function Learn() {
                     </div>
                     <div className="Learn-content-footer">
                         <div className="content-footer-button">
-                            <a>Agenda una clase </a>
+                            <a href="www.google.com" >Agenda una clase </a>
                         </div>
                     </div>
                 </div>
