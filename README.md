@@ -31,11 +31,11 @@ La educación STEM como motor de creación, innovación y felicidades para nuest
 
 ## Desktop
 
-<img width="400px"  src="" />
+<img width="400px"  src="https://i.postimg.cc/c4ptBMBk/192-168-1-70-8000.png" />
 
 ## Mobile
 
-<img width="200px" src="" />
+<img width="200px" src="https://i.postimg.cc/MT3vMyGD/192-168-1-70-8000-i-Phone-X-2.png" />
 
 <div align="center">
 
