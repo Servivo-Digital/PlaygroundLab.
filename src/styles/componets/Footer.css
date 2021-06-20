@@ -1,9 +1,14 @@
+.Footer-content{
+    border-top: 2px solid rgba(220,220,220,0.7);
+    padding-block-start: 10px;
+}
+
+
 .Footer-footer-social{
     display: flex;
     flex-direction: row;
     align-content: center;
-    
-}
+} 
 
 .icon-img{
     width: 100%;
