@@ -46,7 +46,7 @@
     text-decoration: none;
 }
 .PricingItems-card-footer{
-    border-top: 2px solid rgba(220,220,220,0.5);
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 .card-footer-caption{
@@ -133,7 +133,7 @@
 
 /*esto es una porqueria porque intento todo para separar el boton del bottom del contenedor y no queria :( */
 .hacer-refactory-de-esto{
-    height: 5px;
+    height: 30px;
 }
 
 

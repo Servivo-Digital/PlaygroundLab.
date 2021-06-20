@@ -7,10 +7,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease-out;
 }
 
 .content-footer-button a{
     font: var(--headLine4);
     color: var(--white);
     text-decoration: none;
+}
+
+.content-footer-button:hover{
+    background-color: var(--cardbgHeader);
 }
