@@ -22,7 +22,7 @@ export default function Nav() {
   ]
   return (
     <header className="Header">
-      <nav className="Header-nav">
+      <nav className="Header-nav day dark-scheme">
         <img
           className="Header-nav-logo"
           src="https://i.postimg.cc/B6kYhnfP/logo.png"

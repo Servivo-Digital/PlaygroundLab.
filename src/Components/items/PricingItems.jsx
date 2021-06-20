@@ -18,7 +18,7 @@ export default function PricingItems(props) {
   return (
     <div className="PricingItems-container">
       <div className="PricingItems-content">
-        <div className="PricingItems-card">
+        <div className="PricingItems-card day dark-scheme">
           <div className="PricingItems-card-header">
             <h3 className="PricingItems-card-header-title">{title}</h3>
             <p className="PricingItems-card-header-description">

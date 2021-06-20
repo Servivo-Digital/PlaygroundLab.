@@ -11,7 +11,7 @@ import Footer from "./Footer"
 
 export default function Layout(props) {
   return (
-    <>
+    <div className="day dark-scheme">
       <Nav></Nav>
       <main>
         <Hero />
@@ -25,6 +25,6 @@ export default function Layout(props) {
           <Footer />
         </div>
       </main>
-    </>
+    </div>
   )
 }
